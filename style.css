@@ -1,0 +1,77 @@
+body 
+{
+  font-family: Arial, sans-serif;
+  background-color:black;
+  margin: 20px;
+  padding: 20px;
+}
+
+h1 
+{
+  text-align: center;
+  color: white;
+}
+form 
+{
+  color:white;
+  margin-bottom: 20px;
+}
+
+label 
+{
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, button 
+{
+  padding: 8px;
+  background-color: bisque;
+  margin-bottom: 10px;
+}
+
+button 
+{
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul 
+{
+  list-style-type: none;
+  padding: 0;
+  background-color: bisque;
+}
+
+li 
+{
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 5px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+li span
+{
+  float: right;
+}
+#expenseSummary 
+{
+  background-color:bisque;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+#expenseSummary h2 
+{
+  margin-top: 0;
+  font-size: 18px;
+  color: #333;
+}
